@@ -1,0 +1,12 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark green background with rounded corners -->
+  <rect width="64" height="64" fill="#051f20" rx="12"/>
+  
+  <!-- "AS" text in brand green -->
+  <text x="32" y="45" 
+        font-family="'Lato', 'Arial', sans-serif" 
+        font-size="32" 
+        font-weight="700" 
+        fill="#8eb69b" 
+        text-anchor="middle">AS</text>
+</svg>

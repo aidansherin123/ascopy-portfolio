@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark green background with rounded corners -->
+  <rect width="64" height="64" rx="12" fill="#051f20"/>
+  
+  <!-- AS text in light green - large -->
+  <text x="32" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#8eb69b" letter-spacing="-1">AS</text>
+  
+  <!-- COPY text in light green - small, underneath -->
+  <text x="32" y="48" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="600" text-anchor="middle" fill="#8eb69b" letter-spacing="1">COPY</text>
+</svg>

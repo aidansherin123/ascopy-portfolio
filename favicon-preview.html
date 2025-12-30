@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favicon Preview - Right Click to Save</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            background: #f5f5f5;
+            font-family: system-ui, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #051f20;
+            margin-bottom: 30px;
+        }
+        .favicon-display {
+            display: inline-block;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .instructions {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            border-left: 4px solid #8eb69b;
+        }
+        .instructions h3 {
+            margin-top: 0;
+            color: #051f20;
+        }
+        .instructions ol {
+            margin-left: 20px;
+        }
+        .instructions li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>A.S. Copy Favicon</h1>
+        
+        <div class="favicon-display">
+            <svg width="512" height="512" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Dark green background with rounded corners -->
+                <rect width="64" height="64" rx="12" fill="#051f20"/>
+                
+                <!-- AS text in light green -->
+                <text x="32" y="44" font-family="system-ui, -apple-system, sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#8eb69b" letter-spacing="-1">AS</text>
+            </svg>
+        </div>
+        
+        <div class="instructions">
+            <h3>How to Save as PNG:</h3>
+            <ol>
+                <li><strong>Right-click</strong> on the logo above</li>
+                <li>Select <strong>"Save image as..."</strong> or <strong>"Copy image"</strong></li>
+                <li>Save as <code>favicon.png</code></li>
+            </ol>
+            
+            <h3>Or use an online converter:</h3>
+            <ol>
+                <li>Go to <a href="https://svgtopng.com" target="_blank">svgtopng.com</a> or <a href="https://cloudconvert.com/svg-to-png" target="_blank">cloudconvert.com</a></li>
+                <li>Upload the <code>favicon.svg</code> file</li>
+                <li>Set size to 512x512 or 1024x1024</li>
+                <li>Download the PNG</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
